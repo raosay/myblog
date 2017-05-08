@@ -6,7 +6,7 @@
 </head>
 <body>
 	<h1>
-		<a href="">新文章</a>
+		<a href="">修改文章，尝试git  pull指令</a>
 	</h1>
 	{%for article in articles%}
 		<a href="{% url 'blog:article_page' article.id %}">{{article.title}}</a>
